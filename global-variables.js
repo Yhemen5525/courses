@@ -31,13 +31,16 @@ function saveChartToLocalStorage(chart) {
 }
 
 function setCartValue(value) {
-  var spanElement = document.getElementById("cart-id");
-  if (spanElement) {
-    spanElement.textContent = value;
+  var spanElements = document.querySelectorAll(".cart");
+  if (spanElements.length > 0) {
+    spanElements.forEach(function (element) {
+      element.textContent = value;
+    });
   } else {
-    console.error("Span element with id 'cart-id' not found.");
+    console.error("No span elements with class 'cart' found.");
   }
 }
+
 
 function bouncer(){
 	const userData = localStorage.getItem('userData');

@@ -13,7 +13,7 @@ const navbarToggler = document.querySelector('.navbar-toggler');
 if (location.pathname === '/courses/detail.html') {
   // your code here
   // for example:
-  adjustNavbarWidth();
+  //adjustNavbarWidth();
 }
 
 
