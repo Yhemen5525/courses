@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Courses</title>
+      <link rel="stylesheet" href="./reset.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./courses-section.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      <link rel="stylesheet" href="./nav-bar.css">
+      <link rel="stylesheet" href="./header.css">
+      <link rel="stylesheet" href="./about.css">
+      <link rel="stylesheet" href="./pagination.css">
+      <link rel="stylesheet" href="./contact.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Poppins&display=swap" rel="stylesheet">
+
+      <!-- Slick carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+
+<!-- Slick theme CSS (optional) -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
+
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./testimonial.css"/>
+<link rel="stylesheet" type="text/css" href="./contact.css"/>
+
+<!-- Slick carousel JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+      
+
+   </head>
+   <body>
+      <nav id="nav-bar" class="navbar">
+         <div class="navbar-brand">
+            <a class="navbar-logo" href="./"><img src="./logo.png" />... lge</a>
+            <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+         </div>
+         <div class="navbar-links">
+            <a class="navbar-link" href="./">
+            <i class="fa fa-home"></i> Home
+            </a>
+            <a class="navbar-link" href="./chart.html">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart : <span id="cart-id">3</span>
+            </a>
+            <a class="navbar-link" href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+            </a>
+             <a class="navbar-link" href="./#contact">
+            <i class="fa fa-envelope"></i> Contact
+            </a>
+            <a id="nav-login" class="navbar-link" href="./login.html">
+            <i class="fas fa-sign-out-alt"></i> login
+            </a>
+       
+         </div>
+      </nav>
+      <header id="header-section" class="header">
+         <!-- Header content will be loaded here dynamically -->
+      </header>
+      <about id="about"></about>
+      <div id="courses">
+         <section id="courses-section" class="courses-section-courses">
+            <div class="courses-section-container">
+               <h2 class="courses-section-courses-title">Our Courses</h2>
+               <div id="courses-list" class="courses-section-courses-list">
+                  <div class="courses-section-course-item">
+                     <div class="courses-section-course-card">
+                        <img src="img/french1.jpg" alt="French Language Course 1" class="courses-section-course-image">
+                        <div class="courses-section-course-info">
+                           <h3 class="courses-section-course-title">French Language Course 1</h3>
+                           <p class="courses-section-course-description">152.5 hours | Beginner</p>
+                           <p class="courses-section-course-price">$13.99 (was $19.99)</p>
+                           <a href="detail.html?courseId=1" class="courses-section-course-button">view detail</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="courses-section-pagination" id="pagination">
+                  <a href="#" class="courses-section-pagination-link" data-page="1">1</a>
+                  <a href="#" class="courses-section-pagination-link" data-page="2">2</a>
+                  <a href="#" class="courses-section-pagination-link" data-page="3">3</a>
+                  <a href="#" class="courses-section-pagination-link" data-page="4">4</a>
+                  <a href="#" class="courses-section-pagination-link" data-page="5">5</a>
+               </div>
+            </div>
+         </section>
+         
+         <section id="testimonial-section">
+         	<div class="testimonials-section">
+		  <h2 class="testimonials-heading">People Talk About Us</h2>
+		  <!-- Testimonial slider code here -->
+		</div>
+
+         
+         	<div class="testimonial-slider">
+		  <!-- Testimonial slide items will be generated dynamically using JavaScript -->
+		</div>
+
+         </section>
+         
+         <section id="contact">
+         	<div class="contact-card-wrapper">
+		  <div class="contact-card">
+		    <span>Contact Support</span>
+		    <a href="mailto:support@linguae.com">support@linguae.com</a>
+		  </div>
+	        </div>
+         </section>
+
+
+      </div>
+      <!-- Add more sections as needed -->
+      <script src="nav-bar.js"></script>
+      <script src="global-variables.js" defer></script>
+      <script src="section-loader.js" defer></script>
+      <script src="load-courses.js" defer></script>
+      <script src="./testimonial.js"></script>
+   
+      
+   </body>
+   <footer id="footer-section" class="footer"></footer>
+</html>

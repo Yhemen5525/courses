@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Course - chart</title>
+      <link rel="stylesheet" href="./reset.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./courses-section.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      <link rel="stylesheet" href="./nav-bar.css">
+      <link rel="stylesheet" href="./chart.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Poppins&display=swap" rel="stylesheet">
+      
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+      <style>
+      </style>
+   </head>
+   <body>
+      
+      <nav id="nav-bar" class="navbar">
+         <div class="navbar-brand">
+            <a class="navbar-logo" href="./"><img src="./logo.png" />... lge</a>
+            <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+         </div>
+         <div class="navbar-links">
+            <a class="navbar-link" href="./">
+            <i class="fa fa-home"></i> Home
+            </a>
+            <a class="navbar-link" href="./chart.html">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart : <span id="cart-id">3</span>
+            </a>
+            <a class="navbar-link" href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+            </a>
+             <a class="navbar-link" href="./#contact">
+            <i class="fa fa-envelope"></i> Contact
+            </a>
+            <a id="nav-login" class="navbar-link" href="./login.html">
+            <i class="fas fa-sign-out-alt"></i> login
+            </a>
+       
+         </div>
+      </nav>
+  
+  
+      <main>
+      <section class="cart-items">
+        <table>
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Title</th>
+      <th>Price</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="cart-items">
+
+  </tbody>
+</table>
+
+      </section>
+      <section class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Subtotal: <span class="subtotal">$0.00</span></p>
+        <p>Tax: <span class="tax">$0.00</span></p>
+        <p>Total: $<span id="total" class="total">0.00</span></p>
+        <button class="checkout-btn" onclick="goToCheckout()">Buy Now</button>
+      </section>
+    </main>
+  
+  
+       <div id="detail-container"></div>
+   
+      <!-- Add more sections as needed -->
+<script src="nav-bar.js"></script>
+<script src="global-variables.js" defer></script>
+<script src="section-loader.js" defer></script>
+<script src="chart.js" defer></script>
+
+
+
+
+      
+   </body>
+   <footer id="footer-section" class="footer"></footer>
+</html>

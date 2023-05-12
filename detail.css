@@ -1,0 +1,144 @@
+
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .course-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .course-detail img {
+    max-width: 100%;
+  }
+  
+  .course-detail-info {
+  margin-top: 20px;
+  text-align: center;
+}
+  
+  .course-detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .course-detail-meta {
+    margin-top: 20px;
+  }
+  
+  .course-detail-meta p {
+    margin-bottom: 10px;
+  }
+  
+  .course-syllabus {
+    margin-top: 200px;
+    padding: 20px;
+  }
+  
+  .course-syllabus-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .course-syllabus-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .course-syllabus-list li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .course-syllabus-list li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .course-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .course-detail img {
+    max-width: 50%;
+  }
+  
+  .course-detail-info {
+    max-width: 40%;
+    margin-left: 30px;
+  }
+  
+  .course-detail-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .course-detail-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .course-detail-meta {
+    margin-bottom: 20px;
+  }
+  
+  .course-detail-meta p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .course-detail-enroll-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-detail-enroll-button:hover {
+    background-color: #0066cc;
+  }
+  
+  .course-syllabus {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .course-syllabus-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .course-syllabus-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .course-syllabus-list li {
+    margin-bottom: 10px;
+  }
+  
+  .course-syllabus-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    }

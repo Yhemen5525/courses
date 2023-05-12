@@ -1,0 +1,19 @@
+      .video-container {
+        padding-bottom: 5px;
+        height: 500px;
+        width: 80vw;
+       
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      .video-container video {
+        width: 80vw;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+      }
+      
+      .section-title {
+        text-align: center;
+      }

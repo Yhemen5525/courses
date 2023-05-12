@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="./register.css">
+</head>
+<body>
+	<div class="registration-container">
+		<form class="registration-form" enctype="multipart/form-data">
+			<h1 class="registration-header">Create Account</h1>
+			<div class="input-container">
+				<input type="text" id="username" name="username" placeholder="">
+				<label for="username">Username</label>
+			</div>
+			<div class="input-container">
+				<input type="email" id="email" name="email" placeholder="">
+				<label for="email">Email</label>
+			</div>
+			<div class="input-container">
+				<input type="password" id="password" name="password" placeholder="">
+				<label for="password">Password</label>
+			</div>
+
+			<div class="input-container">
+				<label for="profile-image" class="custom-file-upload">
+					<i class="fas fa-cloud-upload-alt"></i>Browse
+				</label>
+				<input type="file" id="profile-image" name="profile-image" accept="image/*">
+			</div>
+			<img id="preview-image" src="./img/profile-img-1.png" alt="Preview Image">
+			<button id="register-btn" type="submit">Register</button>
+			<div class="login-link-container">
+				<p class="login-link">Already have an account? <a href="./login.html">Login</a></p>
+			</div>
+		</form>
+
+	</div>
+	<script src="./register.js"></script>
+</body>
+</html>

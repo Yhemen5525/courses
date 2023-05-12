@@ -1,0 +1,23 @@
+.courses-section-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.courses-section-pagination-link {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+.courses-section-pagination-link:hover,
+.courses-section-pagination-link.active {
+  background-color: #333;
+  color: #fff;
+}

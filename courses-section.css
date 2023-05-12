@@ -1,0 +1,98 @@
+/* courses section */
+
+.courses-section-courses {
+background-color: courses-section-#f8f8f8;
+padding: 50px 0;
+}
+
+.courses-section-courses .courses-section-courses-title {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.courses-section-courses .courses-section-courses-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+gap: 30px;
+}
+
+.courses-section-courses .courses-section-course-item {
+flex-basis: 300px;
+}
+
+/* Style the course card */
+.courses-section-course-card {
+  position: relative;
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.courses-section-course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the course image */
+.courses-section-course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style the course title */
+.courses-section-course-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Style the course description */
+.courses-section-course-description {
+  font-size: 1rem;
+  color: var(--navy-blue);
+  margin: 5px 0;
+}
+
+/* Style the course price */
+.courses-section-course-price {
+  font-size: 1.2rem;
+  color: var(--orange);
+  margin: 5px 0;
+}
+
+/* Style the course button */
+.courses-section-course-button {
+  display: inline-block;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--light-orange);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.courses-section-course-button:hover {
+  background-color: var(--orange);
+}
+
+/* Add animation to the course card */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.courses-section-course-card {
+  animation: fade-in 0.5s ease;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Courses</title>
+      <link rel="stylesheet" href="./reset.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./courses-section.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      <link rel="stylesheet" href="./nav-bar.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./profile.css">
+      <style>
+      </style>
+   </head>
+   <body>
+      <nav id="nav-bar" class="navbar">
+         <div class="navbar-brand">
+            <a class="navbar-logo" href="./"><img src="./logo.png" />... lge</a>
+            <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+         </div>
+         <div class="navbar-links">
+            <a class="navbar-link" href="./">
+            <i class="fa fa-home"></i> Home
+            </a>
+            <a class="navbar-link" href="./chart.html">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart : <span id="cart-id">3</span>
+            </a>
+            <a class="navbar-link" href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+            </a>
+             <a class="navbar-link" href="./#contact">
+            <i class="fa fa-envelope"></i> Contact
+            </a>
+            <a id="nav-login" class="navbar-link" href="./login.html">
+            <i class="fas fa-sign-out-alt"></i> login
+            </a>
+       
+         </div>
+      </nav>
+      
+      
+    <div class="container">
+        <div class="profile">
+            <img id="profile-image" src="./profile-picture.png" alt="My Profile Picture">
+            <button class="update-btn">Update Profile Picture</button>
+            <h1 id="username" class="name">Username</h1>
+            <p id="email" class="email">email</p>
+        </div>
+        <div class="courses">
+            <h2>Purchased Courses</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="no-courses">No courses purchased.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+      <!-- Add more sections as needed -->
+      <script src="./nav-bar.js"></script>
+      <script src="./global-variables.js" defer></script>
+      <script src="./section-loader.js" defer></script>
+      <script src="./profile.js" defer></script>
+     
+      
+   </body>
+   <footer id="footer-section" class="footer"></footer>
+</html>

@@ -1,0 +1,35 @@
+{
+  "courseImage": "./woman2.png",
+  "courseTitle": "Introduction to Programming",
+  "courseDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nibh ut leo vestibulum luctus. Nam eget turpis ut velit vulputate pretium.",
+  "courseLevel": "Beginner",
+  "courseDuration": "6 weeks",
+  "courseInstructor": "John Doe",
+  "coursePrice": "$99.99",
+  "syllabus": [
+    {
+      "lesson": "Lesson 1: Introduction to Programming",
+      "link": "#"
+    },
+    {
+      "lesson": "Lesson 2: Variables and Data Types",
+      "link": "#"
+    },
+    {
+      "lesson": "Lesson 3: Conditional Statements",
+      "link": "#"
+    },
+    {
+      "lesson": "Lesson 4: Loops",
+      "link": "#"
+    },
+    {
+      "lesson": "Lesson 5: Functions",
+      "link": "#"
+    },
+    {
+      "lesson": "Lesson 6: Arrays and Objects",
+      "link": "#"
+    }
+  ]
+}

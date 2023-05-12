@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+	<link rel="stylesheet" href="./login.css">
+</head>
+<body>
+	<div class="login-container">
+		<form id ="loginForm" class="login-form">
+			<h1 class="login-header">Login</h1>
+			<div class="input-container">
+				<input type="text" id="email" name="email" placeholder="">
+				<label for="username">Email</label>
+				<span id="emailError"></span>
+				
+
+			</div>
+			<div class="input-container">
+				<input type="password" id="password" name="password" placeholder="">
+				<label for="password">Password</label>
+				<span id="passwordError"></span>
+			</div>
+			<div id="togglePassword">
+				<input type="checkbox" onclick="togglePassword()">  Show Password
+			</div>
+			<button id="login-btn" type="submit">Login</button>
+			<div class="signup-link-container">
+				<p class="signup-link">Don't have an account? <a href="./register.html">Sign up</a></p>
+			</div>
+		</form>
+	</div>
+	      
+	<script src="./global-variables.js" defer></script>
+	<script src="./login.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "image": "img/french1.jpg",
+      "title": "Introduction to Programming",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nibh ut leo vestibulum luctus. Nam eget turpis ut velit vulputate pretium.",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "instructor": "John Doe",
+      "price": "$99.99",
+      "syllabus": [
+        "Lesson 1: Introduction to Programming",
+        "Lesson 2: Variables and Data Types",
+        "Lesson 3: Conditional Statements",
+        "Lesson 4: Loops",
+        "Lesson 5: Functions",
+        "Lesson 6: Arrays and Objects"
+      ]
+    },
+    {
+      "image": "img/french1.jpg",
+      "title": "Introduction to Programming",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nibh ut leo vestibulum luctus. Nam eget turpis ut velit vulputate pretium.",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "instructor": "John Doe",
+      "price": "$19.99",
+      "syllabus": [
+        "Lesson 1: Introduction to Programming",
+        "Lesson 2: Variables and Data Types",
+        "Lesson 3: Conditional Statements",
+        "Lesson 4: Loops",
+        "Lesson 5: Functions",
+        "Lesson 6: Arrays and Objects"
+      ]
+    }
+
+  ]
+}

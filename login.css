@@ -1,0 +1,136 @@
+
+/* Reset styles for form elements */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Center the form on the page */
+.login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Style the form elements */
+.login-form {
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	max-width: 400px;
+	width: 90%;
+	animation: form-appear 0.3s ease-in-out;
+}
+
+.login-header {
+	margin-bottom: 20px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.input-container {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.input-container input {
+	padding: 10px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 2px solid #007bff;
+	width: 100%;
+	transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.input-container input:focus {
+	border-bottom-color: #0062cc;
+	outline: none;
+}
+
+.input-container label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1rem;
+	padding: 10px;
+	pointer-events: none;
+	opacity: 0.5;
+	transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+	top: -20px;
+	opacity: 1;
+}
+
+#login-btn {
+        background-color: #212121;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #login-btn:hover {
+        background-color: #484848;
+    }
+
+.signup-link-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.signup-link {
+	font-size: 1rem;
+	opacity: 0.7;
+}
+
+.signup-link a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.signup-link a:hover {
+	text-decoration: underline;
+}
+
+#togglePassword {
+ display:flex;
+ justify-content: end;
+
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 480px) {
+	.login-form {
+		padding: 20px;
+	}
+	
+	.input-container {
+		margin-bottom: 10px;
+	}
+	
+	.signup-link-container {
+		margin-top: 10px;
+	}
+}
+
+/* Animations */
+@keyframes form-appear {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
